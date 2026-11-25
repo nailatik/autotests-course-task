@@ -1,0 +1,17 @@
+[project]
+name = "demo-web-shop-autotests"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "allure-pytest==2.15.2",
+    "playwright==1.57.0",
+    "pytest==8.4.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["autotest"]
+addopts = "--tb=short --allure-no-capture"
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s %(levelname)s %(message)s"
+markers = ["auth: проверки авторизации", "order: оформление демозаказа"]

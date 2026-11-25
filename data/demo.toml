@@ -1,0 +1,21 @@
+[product]
+path = "/computing-and-internet"
+query = "Computing and Internet"
+name = "Computing and Internet"
+availability = "In stock"
+price = "10.00"
+quantity = 2
+
+[customer]
+first_name = "Demo"
+last_name = "Buyer"
+country = "United States"
+region = "California"
+city = "Test City"
+address = "100 Example Street"
+postal_code = "90001"
+phone = "2025550142"
+
+[order]
+shipping = "Ground"
+payment = "Cash On Delivery"
